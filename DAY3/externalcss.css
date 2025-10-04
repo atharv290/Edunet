@@ -1,0 +1,48 @@
+.flex-center {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #abdb0e;
+}
+
+.container {
+  border: 10px; 
+  padding: 10px;
+  
+}
+
+.item1 img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  justify-content: left;
+}
+
+.item2,
+.item3 {
+  height: 40px;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+.item2 {
+  width: 200px;
+  background-color: #10db0c;
+}
+
+.item2 input {
+  width: 400px;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 1rem;
+  color: #000;
+}
+
+.item3 {
+  width: 120px;
+  background-color: lightblue;
+  justify-content: center;
+}
