@@ -1,0 +1,42 @@
+.div1{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.div1 h1, .div1 p, .div1 button{
+    border-style: solid;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 8px;
+}
+.div1 button{
+    background-color: rgb(179, 179, 255);
+}
+:hover .div1 p{
+    box-shadow: 8px 8px 8px grey;
+}
+.data{
+    border-style: solid;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 8px;
+    background-color: rgb(179, 255, 179);
+}
+.in1{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    font-size: medium;
+    border-style: solid;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 8px;
+}
+.in1 input{
+    border-style: solid;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 8px;
+}
